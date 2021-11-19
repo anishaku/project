@@ -11,15 +11,16 @@
 			#mainarea{
 				width:100%;
 				height:5000px;;
+				background:cyan;
 			}
 			#toparea{
 				width:100%;
-				height:130px;
+				height:150px;
 				background:white;
 			}
 			#t1{
 				width:150px;
-				height:130px;
+				height:150px;
 				margin-left:45%;
 			}
 			#t1 img{
@@ -29,9 +30,12 @@
 			#menuarea{
 				width:100%;
 				height:100px;
-				background:white;
+				background:#777;
 				position:sticky;
 				top:0;
+			}
+			#menuarea:hover{
+				background:#F7F7F7;
 			}
 			.m1{
 				width:70px;
@@ -39,6 +43,7 @@
 				float:left;
 				border-radius:100px;
 				margin:10px 75px;
+				border:2px solid black;
 			}
 			.m1 img{
 				width:100%;
@@ -48,11 +53,12 @@
 			#slidearea{
 				width:100%;
 				height:800px;
-				background:url('slidearea.jpeg');
+				background:url('slidearea.jpeg') no-repeat;
+				background-size:cover;
 			}
 			#boxarea{
 				width:100%;
-				height:550px;
+				height:700px;
 				background:yellow;
 			}
 			#b1{
@@ -64,57 +70,82 @@
 				margin-bottom:30px;
 				margin-right:5px;
 				float:left;
+				border-radius:100px;
+				border:2px solid black;
 			}
 			.b2{
 				width:330px;
 				height:450px;
 				background:black;
-				margin:30px 5px;
+				margin-top:30px;
+				margin-left:5px;
+				margin-right:5px;
 				float:left;
+				border-radius:100px;
+				border:2px solid black;
 			}
 			#b1 img{
 				width:100%;
 				height:100%;
+				border-radius:100px;
 			}
 			.b2 img{
 				width:100%;
 				height:100%;
+				border-radius:100px;
+			}
+			#b3{
+				width:100%;
+				height:100px;
+				background:pink;
+				padding-top:45px;
 			}
 			#darea{
 				width:100%;
-				height:1000px;
-				background:orange;
+				height:2000px;
+				background:#F7F7F7;
 			}
 			#d1{
 				width:1000px;
-				height:400px;
-				background:black;
-				margin:50px 450px;
+				height:500px;
+				margin-top:50px;
+				margin-left:450px;
+				border-radius:20px;
+				border:1px solid black;
 			}
 			#d1 img{
 				width:100%;
 				height:100%;
+				border-radius:20px;
 			}
 			.d2{
 				width:500px;
 				height:450px;
-				background:black;
 				float:left;
-				margin:10px 200px;
+				margin-top:50px;
+				margin-left:220px;
+				margin-right:220px;
+				border-radius:20px;
+				border:1px solid black;
 			}
 			.d2 img{
 				width:100%;
 				height:100%;
+				border-radius:20px;
+			}
+			#d3{
+				width:100%;
+				height:100px;
+				background:black;
 			}
 			#footerarea{
 				width:100%;
 				height:1000px;
-				background:red;
+				background:#212121;
 			}
 			.f1{
 				width:300px;
 				height:700px;
-				background:cyan;
 				float:left;
 				margin:200px 50px;
 			}
@@ -123,7 +154,7 @@
 			}
 			.f1 a{
 				text-decoration:none;
-				color:black;
+				color:white;
 			}
 		</style>
 	</head>
@@ -132,65 +163,78 @@
 			<div id="toparea">
 				<div id="t1">
 					<img src="logo.png" align="center">
-				<div>
+				</div>
 			</div>
 			<div id="menuarea">
-				<div class="contentarea">
+				<div class="contentarea"><a href="#">
 					<div class="m1">
-						<img src="men.jfif"/>
+						<a href="#">
+							<img src="men.jfif"/>
+						</a>
 					</div>
 					<div class="m1">
-						<img src="women.jfif"/>
+						<a href="#">
+							<img src="women.jfif"/>
+						</a>
 					</div>
 					<div class="m1">
-						<img src="gold.jfif"/>
+						<a href="#">
+							<img src="gold.jfif"/>
+						</a>
 					</div>
 					<div class="m1">
-						<img src="silver.jfif"/>
+						<a href="#">
+							<img src="silver.jfif"/>
+						</a>
 					</div>
 					<div class="m1">
-						<img src="black.jfif"/>
+						<a href="#">
+							<img src="black.jfif"/>
+						</a>
 					</div>
 				</div>
 			</div>
-			<div id="slidearea">	
+			<div id="slidearea">
 			</div>
 			<div id="boxarea">
-			
-					<div id="b1">
-						<img src="watch1.webp"/>
-					</div>
-					<div class="b2">
-						<img src="watch2.webp"/>
-					</div>
-					<div class="b2">
-						<img src="watch3.webp"/>
-					</div>
-					<div class="b2">
-						<img src="watch4.webp"/>
-					</div>
-					<div class="b2">
-						<img src="watch5.webp"/>
-					</div>
-				
+				<div id="b3">
+					<h1 align="center">OUR COLLECTION</h1>
+				</div>
+				<div id="b1">
+					<img src="watch1.webp"/>
+				</div>
+				<div class="b2">
+					<img src="watch2.webp"/>
+				</div>
+				<div class="b2">
+					<img src="watch3.webp"/>
+				</div>
+				<div class="b2">
+					<img src="watch4.webp"/>
+				</div>
+				<div class="b2">
+					<img src="watch5.webp"/>
+				</div>
+
 			</div>
 			<div id="darea">
-				
-					<div id="d1">
-						<img src="discover1.jpg"/>
-					</div>
-					<div class="d2">
-						<img src="discover2.webp"/>
-					</div>
-					<div class="d2">
-						<img src="discover3.webp"/>
-					</div>
-				
+				<div id="d3">
+				</div>
+				<div id="d1">
+					<img src="discover1.jpg"/>
+				</div>
+				<div class="d2">
+					<img src="discover2.webp"/>
+				</div>
+				<div class="d2">
+					<img src="discover3.webp"/>
+				</div>
 			</div>
 			<div id="footerarea">
 				<div class="contentarea">
 					<div class="f1">
-						<h5>ROLEX WATCHES</h5>
+						<h5><font color="white">ROLEX WATCHES</font>
+</h5>
 							<ul>
 								<li><a href="#">Rolex watches</a></li>
 								<li><a href="#">New watches 2021</a></li>
@@ -201,11 +245,11 @@
 								<li><a href="#">History & Watchmaking</a></li>
 								<li><a href="#">Every Rolex Tells a Story</a></li>
 							</ul>
-						<h5>WORLD OF ROLEX</h5>
+						<h5><font color="white">WORLD OF ROLEX</font></h5>
 							<ul>
 								<li><a href="#">Sports, Arts and Exploration</li>
 							</ul>
-							<h5>SERVICES</h5>
+						<h5><font color="white">SERVICES</font></h5>
 							<ul>
 								<li><a href="#">Buying a Rolex</a></li>
 								<li><a href="#">Find a retailer</a></li>
@@ -216,7 +260,7 @@
 							</ul>
 					</div>
 					<div class="f1">
-						<h4>THE COLLECTION</h4>
+						<h4><font color="white">THE COLLECTION</font></h4>
 								
 							<ul>
 								<li><a href="#">Air-King</a></li>
@@ -237,7 +281,7 @@
 
 					</div>
 					<div class="f1">
-						<h5>OFFICIAL CHANNELS</h5>
+						<h5><font color="white">OFFICIAL CHANNELS</font></h5>
 							<ul>
 
 								<li><a href="#">Facebook</a></li>
@@ -250,13 +294,13 @@
 								<li><a href="#">WeChat</a></li>
 								<li><a href="#">Weibo</a></li>
 							</ul>
-						<h5>LEGAL NOTICES</h5>
+						<h5><font color="white">LEGAL NOTICES</font></h5>
 							<ul>
 								<li><a href="#">Terms of Use</a></li>
 								<li><a href="#">Privacy Notice</a></li>
 								<li><a href="#">Cookies</a></li>
 							</ul>
-						<h5>MEDIA<h5>
+						<h5><font color="white">MEDIA</font><h5>
 							<ul>
 								<li><a href="#">Wallpapers</a></li>
 								<li><a href="#">Brochures</a></li>
